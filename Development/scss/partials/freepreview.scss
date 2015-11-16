@@ -1,0 +1,11 @@
+$fp-width:640px;
+$fp-height:360px;
+
+.newBox{
+	background-image:url('#{$imgPath}postpremiere.jpg');
+	width:$fp-width;
+	height:$fp-height;
+	display:block;
+	margin: auto;
+	margin-top: ($content-height - $fp-height )/2;
+}

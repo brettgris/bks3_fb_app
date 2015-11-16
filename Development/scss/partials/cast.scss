@@ -1,0 +1,134 @@
+$bio-width: 550px;
+$bio-height: 300px;
+$bio-top: 30px;
+$bio-image-width: 168px;
+$bio-image-height: 224px;
+$bio-space: 15px;
+
+$arrow-space: 20px;
+$arrow-width: 29px;
+$arrow-height: 50px;
+
+$thumb-items:7;
+$thumb-width:73px;
+$thumb-height:80px;
+$thumb-spacing: 10px;
+$thumb-border: 1px;
+$thumb-border-color: $light-blue;
+$thumb-border-hover: $white;
+
+$thumb-container:( $thumb-width+$thumb-border*2+$thumb-spacing )*$thumb-items - $thumb-spacing;
+
+.cast{
+	position:relative;
+	
+	.cast-bios{
+		position: absolute;
+		top: $bio-top; 
+		width: 100%;
+		
+		li{
+			width: $bio-width;
+			height: $bio-height;
+			position: absolute;
+			left: 50%;
+			margin-left: $bio-width/-2;
+			display:none;
+			
+			.cast-image{
+				width: $bio-image-width;
+				height: $bio-image-height;
+				background: $dark-blue;
+				position: absolute;
+				left: 0;
+				top: ($bio-height - $bio-image-height)/2;
+				border: $border;
+			}
+			
+			.cast-copy{
+				width: $bio-width - $bio-space - $bio-image-width;
+				right: 0;
+				position: absolute;
+				top: ($bio-height - $bio-image-height)/2;
+				
+				.name{
+					color: $light-blue;
+					font-size: 24px;
+					text-transform: uppercase;
+					font-weight: 700;
+				}
+				
+				.actor{
+					text-transform: uppercase;
+					font-style: 18px;
+					margin-top: 5px;
+					margin-bottom: 20px;
+				}
+				
+				.bio{
+					@extend .copy;
+				}
+			}
+		}
+	}
+	
+	.cast-arrows{
+		position: absolute;
+		top: $bio-top + $bio-height/2 - $arrow-height/2;
+		width: $bio-width + $arrow-space*2 + $arrow-width*2;
+		height: $arrow-height;
+		left: 50%;
+		margin-left: ($bio-width + $arrow-space*2 + $arrow-width*2)/-2;
+		
+		a{
+			display: block;
+			height: $arrow-height;
+			width: $arrow-width;
+			position:absolute;
+			
+			&.next-btn{
+				right: 0;
+				background: url(#{$imgPath}nextbtn.png) center center no-repeat;
+			}
+			
+			&.prev-btn{
+				left: 0;
+				background: url(#{$imgPath}prevbtn.png) center center no-repeat;
+			}
+		}
+	}
+
+	.cast-thumbs{
+		position:absolute;
+		margin:auto;
+		width: $thumb-container;
+		left: 50%;
+		margin-left: $thumb-container/-2;
+		bottom: $footer-height+30;
+		
+		li{
+			float:left;
+			margin-right: $thumb-spacing;
+			position:relative;
+			
+			&:last-child{
+				margin-right: 0;
+			}
+			
+			a{
+				width: $thumb-width;
+				height: $thumb-height;
+				border: $thumb-border solid $thumb-border-color;
+				background: center center no-repeat;
+				display: block;
+				
+				&:hover, &.selected{
+					border: $thumb-border solid $thumb-border-hover;
+				}
+			}
+			
+			
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+ul.cast-bios.animate(speed="0.5" type="from" options="opacity:0,delay:0.5")
+	-for (i in cast)
+		li.cast-bio
+			div.cast-image(style="background-image:url(images/cast/#{cast[i].safename}_l.jpg")
+			div.cast-copy
+				div.name #{cast[i].name}
+				div.actor Played By #{cast[i].actor}
+				div.bio !{cast[i].bio}
+div.cast-arrows.animate(speed="0.5" type="from" options="opacity:0,delay:0")
+	a.next-btn(href="javascript:void(0);")
+	a.prev-btn(href="javascript:void(0);")
+ul.cast-thumbs.animate(speed="0.5" type="staggerFrom" options="opacity:0,top:100" stagger="0.1")
+	-for (i in cast)
+		li
+			a.cast-thumb(href="javascript:void(0);" style="background-image:url(images/cast/#{cast[i].safename}_t.jpg)" n="#{i}")

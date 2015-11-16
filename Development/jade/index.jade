@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		include partials/head.jade
+	body
+		div.wrapper
+			//HEADER
+			include partials/header.jade
+
+			//CONTENT
+			div.content
+				- for (i in pages)
+					div(class="section #{pages[i].name.toLowerCase().replace(/\s/g, '')}" id="section#{i}" style="background:#{pages[i].background};") @@include('#{pages[i].path}')
+
+			//FOOTER
+			include partials/footer.jade
+
+		div#fb-root
+
+	script(type="text/javascript" src="js/plugins.min.js")
+	script(type="text/javascript" src="js/app.min.js")

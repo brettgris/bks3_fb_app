@@ -1,0 +1,15 @@
+$tw-width: 520px;
+$tw-height: 420px;
+
+.twitter-wrapper{
+	@include box-shadow(rgba(0,0,0,.5) 0px 0px 30px);
+	background: rgba(256,256,256,.85);
+	width: $tw-width;
+	height: $tw-height;
+	margin: auto;
+	position:absolute;
+	left:50%;
+	top: ($content-height - $tw-height)/2;
+	border: $border;
+	margin-left: $tw-width/-2;
+}

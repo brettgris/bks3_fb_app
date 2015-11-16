@@ -1,0 +1,17 @@
+- var talink = 0;
+
+div.header
+	ul.nav
+		-for (i in pages)
+			- if ( pages[i].ta ) talink = i
+			- if ( pages[i].menu )
+				li
+					a.navlink(href="javascript:void(0);" path="#{i}") #{pages[i].name}
+
+	a.showta(path="#{talink}" href="javascript:void(0);")
+
+	- var sociallinks = ['invite','share','tweet']
+	ul.socialicons
+		-for (i in sociallinks)
+			li
+				a(class="#{sociallinks[i]}" href="javascript:void(0);")
