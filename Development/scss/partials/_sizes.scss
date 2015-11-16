@@ -1,0 +1,69 @@
+/*************************** GLOBALS ***************************/
+$app-width:810px;
+$app-height:580px;
+
+/**************************** HEADER ***************************/
+$menu-height: 70px;
+
+$ta-width: 200px;
+$ta-height: 37px;
+$ta-margin: 5px;
+
+$si-width: 40px;
+$si-height:40px;
+$si-spacing:0px;
+
+$si-total-width:($si-width+$si-spacing) * $si-items - $si-spacing;
+$nav-width: $app-width - $ta-width - $ta-margin*4 - $si-total-width;
+
+$nav-item-spacing: 5px;
+$nav-item-width: ($nav-width - ($nav-items*($nav-item-spacing+$nav-item-border-width)) + $nav-item-spacing*2)/$nav-items;
+$nav-item-height: 30px; 
+
+/**************************** ABOUT ****************************/
+$about-width: 640px;
+$about-height: 160px;
+$about-bottom: 20px;
+
+$about-ta-width: 500px;
+$about-ta-height: 40px;
+
+/************************ FREE PREVIEW *************************/
+$fp-width:640px;
+$fp-height:360px;
+
+/**************************** CAST *****************************/
+$bio-width: 550px;
+$bio-height: 300px;
+$bio-top: 30px;
+$bio-image-width: 168px;
+$bio-image-height: 224px;
+$bio-space: 15px;
+
+$arrow-space: 20px;
+$arrow-width: 29px;
+$arrow-height: 50px;
+
+$thumb-width:73px;
+$thumb-height:80px;
+$thumb-spacing: 10px;
+
+$thumb-container:( $thumb-width+$thumb-border*2+$thumb-spacing )*$thumb-items - $thumb-spacing;
+
+/************************ INSIDE LOOK **************************/
+$il-width:640px;
+$il-height:360px;
+
+/*************************** SOCIAL ****************************/
+$tw-width: 520px;
+$tw-height: 420px;
+
+/*************************** FOOTER ****************************/
+$footer-height: 42px;
+$starz-width: 80px;
+$starz-height: 25px;
+
+/**************************** MATH *****************************/
+$section-height: $app-height - $menu-height;
+$content-height: $section-height - $footer-height;
+

@@ -1,25 +1,5 @@
-$ta-width: 200px;
-$ta-height: 37px;
-$ta-margin: 5px;
-
-$si-items: 3;
-$si-width: 40px;
-$si-height:40px;
-$si-spacing:0px;
-
-$si-total-width:($si-width+$si-spacing) * $si-items - $si-spacing;
-$nav-width: $app-width - $ta-width - $ta-margin*4 - $si-total-width;
-
-$nav-items: 4;
-$nav-item-spacing: 5px;
-$nav-item-border-width:2px;
-$nav-item-border-color:transparent;
-$nav-item-border-hover:$white;
-$nav-item-width: ($nav-width - ($nav-items*($nav-item-spacing+$nav-item-border-width)) + $nav-item-spacing*2)/$nav-items;
-$nav-item-height: 30px; 
-
 .header {
-	background: $red;
+	background: $black;
 	width:100%;
 	height:$menu-height - 1;
 	position: absolute;
@@ -29,7 +9,8 @@ $nav-item-height: 30px;
 	z-index: 10;
 	
 	.showta{
-		background: url(#{$imgPath}ta.svg) center center no-repeat;
+		background: url(#{$imgPath}ta.png) center center no-repeat;
+		background-size: contain;
 		width: $ta-width;
 		height: $ta-height;
 		margin-left: $ta-margin;

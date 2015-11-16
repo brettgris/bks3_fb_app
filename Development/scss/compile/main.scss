@@ -1,28 +1,22 @@
 @import "compass/css3";
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic);
+$imgPath: "../images/";
 
-/************************  GLOBALS  ************************/
+/************************  VARIABLES  ************************/
+@import '../partials/_colors.scss';
+@import '../partials/_itemnumbers.scss';
+@import '../partials/_borders.scss';
+@import '../partials/_sizes.scss';
+@import '../partials/_fonts.scss';
+@import '../partials/_zindex.scss';
+
+/************************  SECTIONS  ************************/
 @import '../partials/globals.scss';
-
-/************************  HEADER  ************************/
 @import '../partials/header.scss';
-
-/************************  ABOUT  ************************/
 @import '../partials/about.scss';
-
-/************************  ABOUT  ************************/
 @import '../partials/freepreview.scss';
-
-/************************  CAST  ************************/
 @import '../partials/cast.scss';
-
-/************************  INSIDE LOOK  ************************/
 @import '../partials/insidelook.scss';
-
-/************************  SOCIAL  ************************/
 @import '../partials/social.scss';
-
-/************************  FOOTER  ************************/
 @import '../partials/footer.scss';
 

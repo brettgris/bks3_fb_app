@@ -12,7 +12,7 @@ $(function() {
       pages: '.section',
       pageid: 'section',
       ta: '.showta',
-      current: 1
+      current: 0
     });
   };
   setupCast = function() {

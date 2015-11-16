@@ -1,24 +1,3 @@
-$bio-width: 550px;
-$bio-height: 300px;
-$bio-top: 30px;
-$bio-image-width: 168px;
-$bio-image-height: 224px;
-$bio-space: 15px;
-
-$arrow-space: 20px;
-$arrow-width: 29px;
-$arrow-height: 50px;
-
-$thumb-items:7;
-$thumb-width:73px;
-$thumb-height:80px;
-$thumb-spacing: 10px;
-$thumb-border: 1px;
-$thumb-border-color: $light-blue;
-$thumb-border-hover: $white;
-
-$thumb-container:( $thumb-width+$thumb-border*2+$thumb-spacing )*$thumb-items - $thumb-spacing;
-
 .cast{
 	position:relative;
 	

@@ -1,9 +1,3 @@
-$about-width: 640px;
-$about-height: 160px;
-$about-bottom: 20px;
-
-$about-ta-width: 500px;
-$about-ta-height: 40px;
 
 .synopsis{
 	width: 100%;
@@ -22,7 +16,7 @@ $about-ta-height: 40px;
 			height: $about-ta-height;
 			margin: auto;
 			margin-bottom: 10px;
-			background: url(#{$imgPath}ta.svg) center center no-repeat;
+			background: url(#{$imgPath}ta.png) center center no-repeat;
 		}
 		
 		p{
