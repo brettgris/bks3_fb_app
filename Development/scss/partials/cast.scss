@@ -17,7 +17,7 @@
 			.cast-image{
 				width: $bio-image-width;
 				height: $bio-image-height;
-				background: $dark-blue;
+				background: $cast-image-background;
 				position: absolute;
 				left: 0;
 				top: ($bio-height - $bio-image-height)/2;
@@ -31,7 +31,7 @@
 				top: ($bio-height - $bio-image-height)/2;
 				
 				.name{
-					color: $light-blue;
+					color: $cast-name-color;
 					font-size: 24px;
 					text-transform: uppercase;
 					font-weight: 700;

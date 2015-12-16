@@ -1,24 +1,26 @@
 /********************************* BASE COLORS *****************/
-$dark-blue:#002a48;
-$red: #ed1e2e;
 $white: #fff;
-$light-blue:#0f85ba;
 $black: #000;
-$light-grey:#ddd;
+$light-grey:#aaa;
+$medlight-grey: #a6a6a6;
 $med-grey:#666;
 $dark-grey:#404040;
+$yellow: #ebca84;
 
 /*************************** GLOBALS ***************************/
-
 $background: $black;
 
 /**************************** HEADER ***************************/
+$header-link-color: $medlight-grey;
+$header-link-hover: $light-grey;
 
 /**************************** ABOUT ****************************/
 
 /************************ FREE PREVIEW *************************/
 
 /**************************** CAST *****************************/
+$cast-name-color: $yellow;
+$cast-image-background: $black;
 
 /************************ INSIDE LOOK **************************/
 

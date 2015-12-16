@@ -52,10 +52,10 @@ var bind = function(fn, me){ return function(){ return fn.apply(me, arguments); 
     PageSwitcher.prototype.changeTo = function(n) {
       var a, p;
       this.pages.hide();
-      this.nav.eq(this.current).removeClass(this.options.selected);
+      $('#nav' + this.current).removeClass(this.options.selected);
       this.current = n;
       if (this.current >= 0) {
-        this.nav.eq(this.current).addClass(this.options.selected);
+        $('#nav' + this.current).addClass(this.options.selected);
       }
       p = this.pages.eq(this.current);
       a = p.find(this.options.animate).hide();

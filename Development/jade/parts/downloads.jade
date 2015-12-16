@@ -1,0 +1,6 @@
+div.downloads.animate(speed="0.5" type="staggerFrom" options="opacity:0" stagger="0.25")
+	- for (i in downloads)
+		div.download-me
+			a(href="downloads/#{downloads[i].filename}" download="downloads/#{downloads[i].filename}")
+				img(src="downloads/#{downloads[i].filename}" alt="Black Sails #{downloads[i].name}" width="#{downloads[i].width}")
+				p Download #{downloads[i].name}

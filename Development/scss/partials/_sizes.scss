@@ -6,7 +6,7 @@ $app-height:580px;
 $menu-height: 70px;
 
 $ta-width: 200px;
-$ta-height: 37px;
+$ta-height: $ta-width*(49/304);
 $ta-margin: 5px;
 
 $si-width: 40px;
@@ -24,9 +24,12 @@ $nav-item-height: 30px;
 $about-width: 640px;
 $about-height: 160px;
 $about-bottom: 20px;
+$about-width: 400px;
 
-$about-ta-width: 500px;
-$about-ta-height: 40px;
+//$about-ta-width: 500px;
+//$about-ta-height: 49px;
+$about-ta-width: 306px;
+$about-ta-height: 160px;
 
 /************************ FREE PREVIEW *************************/
 $fp-width:640px;
@@ -37,14 +40,14 @@ $bio-width: 550px;
 $bio-height: 300px;
 $bio-top: 30px;
 $bio-image-width: 168px;
-$bio-image-height: 224px;
+$bio-image-height: 244px;
 $bio-space: 15px;
 
 $arrow-space: 20px;
 $arrow-width: 29px;
 $arrow-height: 50px;
 
-$thumb-width:73px;
+$thumb-width:57px;
 $thumb-height:80px;
 $thumb-spacing: 10px;
 
@@ -59,7 +62,7 @@ $tw-width: 520px;
 $tw-height: 420px;
 
 /*************************** FOOTER ****************************/
-$footer-height: 42px;
+$footer-height: 55px;
 $starz-width: 80px;
 $starz-height: 25px;
 

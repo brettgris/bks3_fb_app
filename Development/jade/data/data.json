@@ -1,62 +1,112 @@
 {
-	"pages": [{
+    "pages": [{
+        "name": "Sampling",
+        "path": "parts/freepreview.html",
+        "background": "black url(images/bgs/boats2.jpg) center top no-repeat",
+        "menu": false,
+        "ta": true
+    },{
         "name": "About",
         "path": "parts/about.html",
-        "background": "black url(images/bgs/group.jpg) center top no-repeat",
-        "menu": true,
-        "ta": true
+        "background": "black url(images/bgs/keyart.jpg) center top no-repeat",
+        "menu": true
     }, {
         "name": "Cast",
         "path": "parts/cast.html",
-        "background": "transparent url(images/bgs/cast.jpg) center top no-repeat",
+        "background": "black url(images/bgs/storm2.jpg) center top no-repeat",
         "menu": true
     }, {
         "name": "Inside Look",
         "path": "parts/insidelook.html",
-        "background": "transparent url(images/bgs/insidelook.jpg) center top no-repeat",
+        "background": "black url(images/bgs/fire2.jpg) center top no-repeat",
         "menu": true
     }, {
         "name": "Social",
         "path": "parts/social.html",
-        "background": "transparent url(images/bgs/social.jpg) center top no-repeat",
+        "background": "black url(images/bgs/redcoats2.jpg) center top no-repeat",
+        "menu": true
+    }, {
+        "name": "Downloads",
+        "path": "parts/downloads.html",
+        "background": "black url(images/bgs/river2.jpg) center top no-repeat",
         "menu": true
     }],
-	"cast": [
-		{
-			"safename": "walter",
-			"name": "Walter Blunt",
-			"actor": "Patrick Stewart",
-			"bio": "Walter is a British ex-pat and Falklands War veteran, who currently finds himself riding the tumultuous waves of American cable news. Through his show &#8220;Blunt Talk,&#8221; he delivers hard-hitting truths to his American audience, while often struggling with his life behind the scenes."
-		},{
-			"safename": "harry",
-			"name": "Harry Chandler",
-			"actor": "Adrian Scarborough",
-			"bio": "Harry is Walter&#8217;s manservant, confidant, brother-in-arms, and best friend. He loves drinking and gambling, but neither of these match his unflinching loyalty to Walter."
-		},{
-			"safename": "jim",
-			"name": "Jim Stone",
-			"actor": "Timm Sharp",
-			"bio": "Jim is a senior producer of &#8220;Blunt Talk.&#8221; He is an intellectual who does great work behind the camera, while hoping one day to be in front of it. As his dreams and desires emerge, so do a laundry list of neuroses that he must struggle to overcome. "
-		},{
-			"safename": "celia",
-			"name": "Celia Havemeyer",
-			"actor": "Dolly Wells",
-			"bio": "Celia is a senior producer of &#8220;Blunt Talk&#8221; keen on impressing Walter, whom she has admired for many years. However, to the detriment of her career, her impulsive spirit comes a chaotic personal life."
-		},{
-			"safename": "rosalie",
-			"name": "Rosalie Winter",
-			"actor": "Jacki Weaver",
-			"bio": "Rosalie is Walter&#8217;s executive producer. She oversees Walter and his eccentric staff with a mix of ferocity and tenderness. On the surface she is a bastion of strength, but underneath she’s a vulnerable romantic who is becoming increasingly alarmed by the rapid changes in her home life."
-		},{
-			"safename": "shelly",
-			"name": "Shelly Forbes",
-			"actor": "Mary Holland",
-			"bio": "Despite only being a segment producer, Shelly is an eager firecracker, hell-bent on making her mark in the news world. She is aggressive in her professional life, constantly angling for an opportunity to move up the ladder, and equally aggressive in her sexually adventurous private life."
-		},{
-			"safename": "martin",
-			"name": "Martin Bassi",
-			"actor": "Karan Soni",
-			"bio": "Martin, the runt of the litter, is a segment producer still struggling to fit in. As the daunting age of 28 looms over him, he seeks solace in the motherly embraces of Rosalie."
-		}
-	]
+    "cast": [{
+        "safename": "flint",
+        "name": "CAPTAIN FLINT",
+        "actor": "Toby Stephens",
+        "quoteheight": 62,
+        "desc": "A former Naval officer, disgraced and betrayed, Captain Flint is now the face of grim death in the West Indies."
+    }, {
+        "safename": "eleanor",
+        "name": "ELEANOR GUTHRIE",
+        "actor": "Hannah New",
+        "quoteheight": 103,
+        "desc": "Exiled from her home and sentenced to hang, Eleanor is now London&#8217;s most notorious convict. Granted an opportunity to return to Nassau in the service of its new governor, her survival hinges on one question: can she let go of the past?"
+    }, {
+        "safename": "silver",
+        "name": "JOHN SILVER",
+        "actor": "Luke Arnold",
+        "quoteheight": 98,
+        "desc": "Once an outcast, now the beloved and respected quartermaster of Flint&#8217;s crew. But when Flint&#8217;s campaign of terror crosses over into madness, it falls to Silver to locate the man within the monster, before it&#8217;s too late."
+    }, {
+        "safename": "max",
+        "name": "MAX",
+        "actor": "Jessica Parker Kennedy",
+        "quoteheight": 98,
+        "desc": "With Eleanor exiled, Max is now the nexus between the pirates and the street, a position of great power and influence. But when the return of civilization threatens to unseat her, Max sets a plan in motion that will have dire consequences for the island, as well as her relationship with Anne Bonny."
+    }, {
+        "safename": "billy",
+        "name": "BILLY BONES",
+        "actor": "Tom Hopper",
+        "quoteheight": 93,
+        "desc": "Still mistrustful of his leadership, Billy must set aside his feelings for the sake of his crew&#8217;s survival. But when a new front opens in the war on civilization, Billy sees a different role for himself. One where he need never be beholden to Flint again."
+    }, {
+        "safename": "vane",
+        "name": "CAPTAIN CHARLES VANE",
+        "actor": "Zach McGowan",
+        "quoteheight": 60,
+        "desc": "Allied with former enemies. Forced to betray his own values. Marked for death by civilization. For Captain Charles Vane, the costs of defending Nassau continue to mount. Is he strong enough to survive what&#8217;s coming?"
+    }, {
+        "safename": "rackham",
+        "name": "JACK RACKHAM",
+        "actor": "Toby Schmitz",
+        "quoteheight": 100,
+        "desc": "Sitting atop a fortune in Spanish gold, Rackham is finally in a position to win friends, secure his reputation and preserve Nassau for the ages. But when civilization returns to reclaim its island, he will learn that money can only buy so much&#8230;"
+    }, {
+        "safename": "anne",
+        "name": "ANNE BONNY",
+        "actor": "Clara Paget",
+        "quoteheight": 71,
+        "desc": "A beacon of loyalty in a sea of shifting alliances, Bonny is caught between her partnership with Rackham, and her love for Max. But when upheaval on the island forces unpleasant truths to the surface, Bonny must choose once and for all where and with whom she belongs."
+    }, {
+        "safename": "scott",
+        "name": "MR. SCOTT",
+        "actor": "Hakeem Kae-Kazim",
+        "quoteheight": 89,
+        "desc": "More than anyone, Scott recognizes the perils of a Nassau without Eleanor Guthrie. With the ground shifting beneath his feet, he must make a decision to protect that which he truly loves."
+    }, {
+        "safename": "teach",
+        "name": "EDWARD TEACH",
+        "actor": "Ray Stevenson",
+        "quoteheight": 95,
+        "desc": "One of the most notorious pirates to have ever lived, Edward Teach, also known as Blackbeard, returns to the account to settle some unfinished business. But a great deal has changed in his absence, and to cement his legacy he will have to challenge Nassau&#8217;s most powerful&#8230; at sea. On land. And at the end of a sword."
+    }],
+    "downloads":[{
+    	"name": "Facebook Banner",
+    	"filename": "bks3_banner_facebook.jpg",
+    	"width":300
+    },{
+    	"name": "Twitter Banner",
+    	"filename": "bks3_banner_twitter.jpg",
+    	"width":300
+    },{
+    	"name": "Wallpaper - Fullscreen",
+    	"filename": "bks3_wallpaper_fullscreen.jpg",
+    	"width":200
+    },{
+    	"name": "Wallpaper - Widescreen",
+    	"filename": "bks3_wallpaper_widescreen.jpg",
+    	"width":250
+    }]
 }

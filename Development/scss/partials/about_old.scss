@@ -1,0 +1,33 @@
+
+.synopsis{
+	width: 100%;
+	margin:auto;
+	position: absolute;
+	bottom: $footer-height + $about-bottom;
+	//@include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 30%));
+	
+	.container{
+		width:$about-width;
+		margin: auto;
+		margin-top: 13px;
+		
+		.synopsista{
+			width: $about-ta-width;
+			height: $about-ta-height;
+			margin: auto;
+			margin-bottom: 10px;
+			background: url(#{$imgPath}ta.png) center center no-repeat;
+		}
+		
+		p{
+			@extend .copy;
+			width:90%;
+			margin: auto;
+			margin-bottom: 10px;
+			
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}

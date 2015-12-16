@@ -22,25 +22,27 @@
 		width: $nav-width;
 		position: absolute;
 		left: $ta-width + $ta-margin*2;
-		top:( $menu-height - $nav-item-height )/2;
+		top:( $menu-height - $nav-item-height )/2-3;
 		
 		li{
 			float:left;
 			text-align: center;
-			width: $nav-item-width;
+			//width: $nav-item-width;
 			height: $nav-item-height;
 			line-height: $nav-item-height;
 			margin-right: $nav-item-spacing;
 			
 			a{
-				color: $light-grey;
+				color: $header-link-color;
 				border: $nav-item-border-width solid $nav-item-border-color;
-				display: block;
-				width: $nav-item-width;
+				display: inline-block;
+				//width: $nav-item-width;
 				height: $nav-item-height;
+				text-transform: uppercase;
+				padding: 0px 7px;
 				
 				&:hover, &.selected{
-					color: $white;
+					color: $header-link-hover;
 					border: $nav-item-border-width solid $nav-item-border-hover;
 				}
 				

@@ -6,7 +6,7 @@ div.header
 			- if ( pages[i].ta ) talink = i
 			- if ( pages[i].menu )
 				li
-					a.navlink(href="javascript:void(0);" path="#{i}") #{pages[i].name}
+					a.navlink(href="javascript:void(0);" path="#{i}" id="nav#{i}") #{pages[i].name}
 
 	a.showta(path="#{talink}" href="javascript:void(0);")
 

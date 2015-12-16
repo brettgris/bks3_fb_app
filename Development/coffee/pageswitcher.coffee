@@ -34,11 +34,11 @@
 
 		changeTo: (n) =>
 			@pages.hide()
-			@nav.eq(@current).removeClass(@options.selected)
+			$('#nav'+@current).removeClass(@options.selected)
 			@current = n
 
 			if @current>= 0 
-				 @nav.eq(@current).addClass(@options.selected)
+				 $('#nav'+@current).addClass(@options.selected)
 
 			p = @pages.eq(@current)
 			a = p.find(@options.animate).hide()
