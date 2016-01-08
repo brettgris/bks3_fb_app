@@ -1,10 +1,16 @@
 .newBox{
-	background-image:url('#{$imgPath}prepremiere.jpg');
+	background-image:url('#{$imgPath}prepremiere2.jpg');
 	width:$fp-width;
 	height:$fp-height;
 	display:block;
 	margin: auto;
 	margin-top: ($content-height - $fp-height )/2;
+
+	a{
+		width:$fp-width;
+		height:$fp-height;
+		display:block;
+	}
 
 	@include box-shadow(rgba(0,0,0,.5) 0px 0px 20px);
 }
